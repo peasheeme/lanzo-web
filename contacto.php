@@ -1,0 +1,78 @@
+<?php require_once('includes/header.php') ?>
+
+		<!-- Intro section start -->
+
+		<section id="contacto" class="section" >
+			<div class="container">
+				<div class="row text-left">
+					<div class="col-md-10">
+						<div class=" wow bounceInDown text-left">
+							<h2 class="mt-50">Contacto</h2>
+							<p class="mt-20 white">Siempre es un gusto atender tus preguntas y
+								 necesidades.  <br>	Nosotros nos encargaremos de todo.</p>
+							<a href="tel:018120489445"><button class="botones">Llamanos</button></a>
+						</div>
+						<div class="col-md-2  "></div>
+					</div>
+				</div>
+				</div><!-- .row -->
+
+
+
+		</section>
+
+		<!-- Intro section end -->
+
+		<!-- Contact-data section end   id="contact-form"-->
+
+		<section id="contact" class="section">
+			<div class="container">
+				<div class="row dispMovil">
+					<div class="col-md-6 wow bounceInLeft">
+						<form action="assets/php/contactForm.php"  method="post" role="form">
+							<div class="ajax-hidden">
+								<div class="form-group">
+									<label class="sr-only" for="c_name">Nombre</label>
+									<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Nombre" required>
+								</div>
+								<div class="form-group">
+									<label class="sr-only" for="c_email">E-mail </label>
+									<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail" required>
+								</div>
+								<div class="form-group">
+									<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Mensaje" required></textarea>
+								</div>
+								<button type="submit" class="btn btn-custom-1-inverse">
+									<i class="fa fa-bullhorn icon-before"></i> Enviar
+								</button>
+							</div>
+
+							<div class="ajax-response"></div><!-- Displays status when submitting form -->
+						</form>
+					</div><!-- .col -->
+					<div class="col-md-6 wow bounceInUp margen-movil">
+						<h4><img class=" pl-20" src="assets/images/icons/phone.png" alt="phone" > Télefonos</h4>
+						<a class="" href="tel:8113565400"> <span class="pl-55">81-13565400 </span></a> <br> 
+						 <a class="" href="tel:8113565401"> <span class="pl-55">81-13565401 </span></a> <br> 
+						 <a class="" href="tel:8113565401"> <span class="pl-55">81-13565402 </span></a> <br> 
+						 <a class="" href="tel:8113565401"> <span class="pl-55">81-13565403 </span></a> <br> 
+
+						<hr/>
+						<h4> <img class=" pl-20"  src="assets/images/icons/mail.png" alt="mail"> E-mail</h4>
+						 <a href="mailto:contacto@lanzo.com.mx">
+						 <span class="pl-55"> contacto@lanzo.com.mx </span></a> <br> 
+						<hr/>
+
+						<h4>  <img class=" pl-20" src="assets/images/icons/ubicacion.png" alt="ubicacion"> Ubicación</h4>
+
+							 <a href="#">
+							 <span style="padding-left:55px"> Pte L-18  C.P. 66260</span> <br>
+								  <span style="padding-left:55px">San Pedro Garza García  </span>  <br>
+								  <span style="padding-left:55px">Nuevo León México.</span> <br>
+							 </a>
+					</div><!-- .col -->
+				</div><!-- .row -->
+			</div><!-- .container -->
+		</section>
+		<!-- Contact section end -->
+		<?php require_once('includes/footer.php') ?>
