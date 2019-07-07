@@ -30,17 +30,43 @@
 				<div class="row dispMovil">
 					<div class="col-xs-12 col-sm-6 col-md-6 wow bounceInLeft">
 						<form action="assets/php/contactForm.php"  method="post" role="form">
+
+						<?php 
+						
+							if(isset($_GET['error'])){
+								$error = $_GET['error'];
+
+								if($error == "faltan_valores"){
+									echo "<h5>Introduce bien los datos</h5>";
+								}
+
+								elseif ($error == "name") {
+									echo "<h5 style='color:red;'>Nombre no válido</h5>";
+								}
+
+								elseif ($error == "email") {
+									echo "<h5 style='color:red;'>E-mail no válido</h5>";
+								}
+
+								elseif ($error == "message") {
+									echo "<h5 style='color:red;'>Mensaje no válido</h5>";
+								}
+
+								unset($error);
+							}
+							
+						?>
 							<div class="ajax-hidden">
 								<div class="form-group">
 									<label class="sr-only" for="c_name">Nombre</label>
-									<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Nombre" required>
+									<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Nombre" >
 								</div>
 								<div class="form-group">
 									<label class="sr-only" for="c_email">E-mail </label>
-									<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail" required>
+									<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
 								</div>
 								<div class="form-group">
-									<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Mensaje" required></textarea>
+									<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Mensaje"></textarea>
 								</div>
 								<button type="submit" class="btn btn-custom-1-inverse">
 									<i class="fa fa-bullhorn icon-before"></i> Enviar
