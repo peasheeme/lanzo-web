@@ -10,7 +10,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-md-3"></div>
 				<div class="col-xs-12 col-md-9">
-					<h2 style="color:#777; font-weight:400;"><img src="assets/images/faq6.png" width="50" alt=""> Preguntas Frecuentes</h2>
+					<h2 style="color:#777; font-weight:400;"><img src="assets/images/faq6.png" alt=""> Preguntas Frecuentes</h2>
 				</div>
 			</div>
 		</div>
@@ -20,36 +20,39 @@
 	<section id="faq-content">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-md-3">
+				<div class="col-xs-12 col-sm-4 col-md-3">
 					<div class="tabs-links text-left">
 
-						<a href="#seccion 1"><img src="assets/images/faq1.png"  width="50" alt=""> <span style="font-size:20px; margin-left:10px; color:#777;">Marca</span></a>
+						<a href="#seccion 1"><img src="assets/images/faq1.png" alt=""> <span> Marca</span></a>
 
 
-						<a href="#seccion 2"><img src="assets/images/faq2.png" width="50" alt=""> <span style="font-size:20px; margin-left:10px; color:#777;"> Patentes</span></a></a>
+						<a href="#seccion 2"><img src="assets/images/faq2.png" alt=""> <span> Patentes</span></a>
 
 
-						<a href="#seccion 3"><img src="assets/images/faq3.png" width="50" alt=""> 
-						<span style="font-size:20px; margin-left:10px; color:#777;">Denominación </span>
-						<span style="font-size:20px; margin-left:63px; color:#777;"> de origen</span></a> </a>
+						<a href="#seccion 3">
+							<img src="assets/images/faq3.png" alt=""> 
+							<span>Denominación de origen</span>
+						</a> 
 
 
-						<a href="#seccion 4"><img src="assets/images/faq4.png" width="50" alt="">  
-						<span style="font-size:20px; margin-left:10px; color:#777;">Derechos de </span>
-						<span style="font-size:20px; margin-left:63px; color:#777;"> autor</span></a> 
+						<a href="#seccion 4"><img src="assets/images/faq4.png"  alt="">  
+							<span>Derechos de autor</span>
+							
+						</a> 
 						
 
-						<a href="#seccion 5"><img src="assets/images/faq5.png" width="50" alt="">
-						<span style="font-size:20px; margin-left:10px; color:#777;">Secretos </span>
-						<span style="font-size:20px; margin-left:63px; margin-top:-10px; color:#777;"> Industriales</span></a> 
+						<a href="#seccion 5"><img src="assets/images/faq5.png" alt="">
+							<span>Secretos </span>
+							<span> Industriales</span>
+						</a> 
 
 					</div>
 				</div>
 
-				<div class="col-xs-12 col-md-9">
+				<div class="col-xs-12 col-sm-8 col-md-9">
 					<div class="tabs-contents-item" id="seccion1">
-						<h2 style="color:#777; font-weight:400;"><img src="assets/images/faq1.png" width="35" alt=""> Marca</h3>
-						<h6 style="color: #777; padding-left: 44px;  line-height: 0.1;  padding-bottom: 26px;">Preguntas frecuentes y sus respuestas</h6>
+						<h3 style="color:#777; font-weight:400;"><img src="assets/images/faq1.png" width="35" alt=""> Marca</h3>
+						<h6 style="color: #777;">Preguntas frecuentes y sus respuestas</h6>
 						<div class="acordeon">
 							<div class="acordeon-contenedor">
 								<h6 class="my-2 h6 acordeon-titulo">¿Qué es una marca? </h6>
@@ -195,7 +198,7 @@
 					<div class="tabs-contents-item">
 						<!--Tab 2-->
 						<h3 style="color:black;"><img src="assets/images/faq2.png" width="35" alt=""> Patentes</h3>
-						<h6 style="color: #777; padding-left: 44px;  line-height: 0.1;  padding-bottom: 26px;">Preguntas frecuentes y sus respuestas</h6>
+						<h6 style="color: #777;">Preguntas frecuentes y sus respuestas</h6>
 						<div class="acordeon">
 							<div class="acordeon-contenedor">
 								<h6 class="my-2 h6 acordeon-titulo">¿Qué es una patente? </h6>
@@ -398,7 +401,7 @@
 						<!--Tab 3-->
 
 						<h3 style="color:black;"><img src="assets/images/faq3.png" width="35" alt=""> Denominación de origen</h3>
-						<h6 style="color: #777; padding-left: 44px;  line-height: 0.1;  padding-bottom: 26px;">Preguntas frecuentes y sus respuestas</h6>
+						<h6 style="color: #777;">Preguntas frecuentes y sus respuestas</h6>
 						<div class="acordeon">
 							<div class="acordeon-contenedor">
 								<h6 class="my-2 h6 acordeon-titulo">¿Qué es la Denominación de Origen? </h6>
@@ -455,7 +458,7 @@
 					<div class="tabs-contents-item ">
 						<!--Tab 4-->
 						<h3 style="color:black;"><img src="assets/images/faq4.png" width="35" alt=""> Derechos de autor</h3>
-						<h6 style="color: #777; padding-left: 44px;  line-height: 0.1;  padding-bottom: 26px;">Preguntas frecuentes y sus respuestas</h6>
+						<h6 style="color: #777;">Preguntas frecuentes y sus respuestas</h6>
 						<div class="acordeon">
 							<div class="acordeon-contenedor">
 								<h6 class="my-2 h6 acordeon-titulo">¿Qué es una obra?</h6>
@@ -628,7 +631,7 @@
 					<div class="tabs-contents-item">
 						<!--Tab 5-->
 						<h3 style="color:black;"><img src="assets/images/faq5.png" width="35" alt=""> Secretos Industriales</h3>
-						<h6 style="color: #777; padding-left: 44px;  line-height: 0.1;  padding-bottom: 26px;">Preguntas frecuentes y sus respuestas</h6>
+						<h6 style="color: #777;">Preguntas frecuentes y sus respuestas</h6>
 						<div class="acordeon">
 							<div class="acordeon-contenedor">
 								<h6 class="my-2 h6 acordeon-titulo">¿Qué es un Secreto Industrial? </h6>

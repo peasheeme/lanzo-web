@@ -23,7 +23,7 @@ a:hover {
 }
 
 #faq-title{
-	padding-top: 150px ;
+	padding-top: 150px;
 	padding-bottom: 70px;
 }
 
@@ -572,7 +572,7 @@ a,
 	 background-attachment: fixed;
 }
 .clientesOrgullosos {
-	padding: 130px 0;
+	padding: 50px 0;
 	background: #fafafa;
 }
 
@@ -1040,12 +1040,16 @@ h1.portada-title {
 #contact-header {
 	background: url(../images/bg1.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
-			background-size: cover;
+	background-size: cover;
 }
 
 #contact-data {
 	background: #ebeff0;
 	text-align: center;
+}
+
+.text-position{
+	text-align: initial;
 }
 
 #map-section {
@@ -1072,12 +1076,11 @@ h1.portada-title {
 
 #footer p ,a {
 	font-size: 14px;
-	margin: 5px 0;
 	color: #999999;
 }
-#footer img {
+/*#footer img {
 	margin-right: 16px;
-}
+}*/
 a.footer-link {
 	color: #999999;
 }
@@ -1089,6 +1092,9 @@ h4.media-heading {
 }
 h3.footer {
 	color: #999999;
+}
+#footer .footer-text{
+	padding-left: 40px;
 }
 
 /* ---------------------------------------------- /*
@@ -1102,7 +1108,7 @@ h3.footer {
 	display: grid;
 }
 .tabs-links a{
-	display: block;
+	
 	text-decoration: none;
 	background: white;
 	text-align: left;
@@ -1113,11 +1119,23 @@ h3.footer {
 .tabs-links a:focus{
 	outline: none;
 }
+.tabs-links a img{
+	width: 20%;
+}
+.tabs-links a span{
+	font-size: smaller;
+}
 .tabs-contents-item{
 	display: none;
 	background: white;
 	padding: 1.5em;
 }
+.tabs-contents-item h6{
+	padding-left: 44px;  
+	line-height: 0.1;  
+	padding-bottom: 26px;
+}
+
 .tabs-contents-item.active-faq{
 	display: block;
 	
@@ -1127,8 +1145,8 @@ h3.footer {
 	z-index: 10;
 	color: red;
 	-webkit-box-shadow: 7px 6px 10px 0px rgba(161,152,161,0.61);
--moz-box-shadow: 7px 6px 10px 0px rgba(161,152,161,0.61);
-box-shadow: 7px 6px 10px 0px rgba(161,152,161,0.61);
+	-moz-box-shadow: 7px 6px 10px 0px rgba(161,152,161,0.61);
+	box-shadow: 7px 6px 10px 0px rgba(161,152,161,0.61);
 }
 
 .acordeon .acordeon-titulo{
@@ -1138,7 +1156,7 @@ box-shadow: 7px 6px 10px 0px rgba(161,152,161,0.61);
 	line-height: 2.5;
 	border-bottom: 1px solid #D8E1E4;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 0.8em;
 	cursor: pointer;
 }
 
@@ -1525,5 +1543,59 @@ h3.green:hover {
 	.status-mes h4 {
 		color: #222;
 		margin-top: 30px;
+	}
+	#faq-content .tabs-links a img{
+		width: 13%;
+	}
+	.tabs-links a span{
+		font-size: 1.2em;
+	}
+}
+
+
+
+@media screen and (max-width:480px){
+	.acordeon .acordeon-titulo{
+		font-size: 0.7em;
+	}
+	.tabs-links a span{
+		font-size: 1.1em;
+	}
+	#footer .footer-text{
+		padding-left: 35px;
+	}
+
+	#footer .footer-link img{
+		width: 18%;
+	}
+
+	#footer .footer-link{
+		font-size: 0.7em;
+	}
+	#faq-title{
+		padding-top: 70px;
+		padding-bottom: 50px;
+	}
+
+	#faq-title h2{
+		font-size: 1.4em;
+	}
+	#faq-title h2 img{
+		width: 13%;
+	}
+
+	#faq-content .tabs-links a img{
+		width: 13%;
+	}
+	.tabs-contents-item h6{
+		padding-left: 44px;  
+		line-height: 1.2;  
+		padding-bottom: 15px;
+	}
+	.tabs-contents-item h3{
+		font-size: 1.1em;
+	}
+	.acordeon .acordeon-contenido{
+		font-size: 12px;
 	}
 }

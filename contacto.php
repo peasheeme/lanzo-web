@@ -10,7 +10,7 @@
 							<h2 class="mt-50">Contacto</h2>
 							<p class="mt-20 white">Siempre es un gusto atender tus preguntas y
 								 necesidades.  <br>	Nosotros nos encargaremos de todo.</p>
-							<a href="tel:018120489445"><button class="botones">Llamanos</button></a>
+							<a href="tel:018120489445"><button class="botones">Llámanos</button></a>
 						</div>
 						<div class="col-md-2  "></div>
 					</div>
@@ -28,7 +28,7 @@
 		<section id="contact" class="section">
 			<div class="container">
 				<div class="row dispMovil">
-					<div class="col-md-6 wow bounceInLeft">
+					<div class="col-xs-12 col-sm-6 col-md-6 wow bounceInLeft">
 						<form action="assets/php/contactForm.php"  method="post" role="form">
 							<div class="ajax-hidden">
 								<div class="form-group">
@@ -50,8 +50,10 @@
 							<div class="ajax-response"></div><!-- Displays status when submitting form -->
 						</form>
 					</div><!-- .col -->
-					<div class="col-md-6 wow bounceInUp margen-movil">
-						<h4><img class=" pl-20" src="assets/images/icons/phone.png" alt="phone" > Télefonos</h4>
+
+
+					<div class="col-xs-12 col-sm-6 col-md-6 wow bounceInUp margen-movil text-position">
+						<h4><img class=" pl-20" src="assets/images/icons/phone.png" alt="phone" > Teléfonos</h4>
 						<a class="" href="tel:8113565400"> <span class="pl-55">81-13565400 </span></a> <br> 
 						 <a class="" href="tel:8113565401"> <span class="pl-55">81-13565401 </span></a> <br> 
 						 <a class="" href="tel:8113565401"> <span class="pl-55">81-13565402 </span></a> <br> 
