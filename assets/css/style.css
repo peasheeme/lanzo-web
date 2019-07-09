@@ -198,6 +198,34 @@ a,
 .input-group .form-control {
 	z-index: auto;
 }
+.campo{
+	background: #FFF;
+    border: .5px solid #D8E1E4;
+    font-size: 14px;
+	padding: 15px;
+	width: 100%;
+	border-radius: 2px;
+}
+.campo:invalid{
+	border: 1px solid red;
+}
+.campo:invalid{
+	border: 1px solid red;
+}
+.campo:valid{
+	border: 1px solid green;
+}
+.campo:valid{
+	border: 1px solid green;
+}
+.campo:invalid + span::after{
+	content: url(../images/error.png);
+
+}
+
+.campo:valid + span::after{
+	content: url(../images/exito.png);
+}
 
 .input-group-addon {
 	background: #D8E1E4;
@@ -983,9 +1011,9 @@ h1.portada-title {
 	height: 84px;
 	width: 84px;
 	-webkit-border-radius: 50%;
-	   -moz-border-radius: 50%;
-		 -o-border-radius: 50%;
-			border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
 }
 
 #testimonials blockquote {
@@ -1014,7 +1042,7 @@ h1.portada-title {
 #team-header {
 	background: url(../images/bg3.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
-			background-size: cover;
+	background-size: cover;
 }
 
 .member {
@@ -1138,7 +1166,6 @@ h3.footer {
 
 .tabs-contents-item.active-faq{
 	display: block;
-	
 }
 .active-faq{
 	padding: 50px 50px;
