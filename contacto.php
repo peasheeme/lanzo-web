@@ -17,8 +17,6 @@
 				</div>
 				</div><!-- .row -->
 
-
-
 		</section>
 
 		<!-- Intro section end -->
@@ -29,7 +27,7 @@
 			<div class="container">
 				<div class="row dispMovil">
 					<div class="col-xs-12 col-sm-6 col-md-6 wow bounceInLeft">
-						<form action="assets/php/contactForm.php"  method="post" role="form">
+						<form action="assets/php/contactForm.php"  method="post" role="form" novalidate onsubmit="validar(event);">
 
 						<?php 
 						
@@ -52,25 +50,22 @@
 									echo "<h5 style='color:red;'>Mensaje no válido</h5>";
 								}
 
-								unset($error);
 							}
 							
 						?>
 							<div class="ajax-hidden">
 								<div class="form-group">
 									<label class="sr-only" for="c_name">Nombre</label>
-									<input type="text" id="c_name" onkeyup="this.className = 'campo'" class="form-control"  maxlength="100" name="c_name" placeholder="Nombre" required><span></span>
+									<input type="text" pattern="[A-Za-z-áéíóú\s]+" id="c_name" onkeyup="this.className = 'campo';" class="form-control"  maxlength="100" name="c_name" placeholder="Nombre" required><span></span>
 								</div>
 								<div class="form-group">
 									<label class="sr-only" for="c_email">E-mail </label>
-									<input type="email" id="c_email" onkeyup="this.className = 'campo'" class="form-control" name="c_email" placeholder="E-mail" required><span></span>
+									<input type="email" id="c_email" onkeyup="this.className = 'campo';" class="form-control" name="c_email" placeholder="E-mail" required><span></span>
 								</div>
 								<div class="form-group">
-									<textarea class="form-control" id="c_message" onkeyup="this.className = 'campo'" name="c_message" rows="7" placeholder="Mensaje" required></textarea><span></span>
+									<textarea class="form-control" id="c_message" onkeyup="this.className = 'campo';" name="c_message" rows="7" placeholder="Mensaje" required></textarea><span></span>
 								</div>
-								<button type="submit" class="btn btn-custom-1-inverse">
-									<i class="fa fa-bullhorn icon-before"></i> Enviar
-								</button>
+								<input type="submit" value="Enviar">
 							</div>
 
 							<div class="ajax-response"></div><!-- Displays status when submitting form -->

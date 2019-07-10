@@ -227,6 +227,59 @@ a,
 	content: url(../images/exito.png);
 }
 
+.error-msj{
+	position: absolute;
+	width: 150px;
+	height: auto;
+	padding: 5px;
+	background-color: red;
+	border-radius: 5px;
+	left: 1010px;
+	animation: resaltar 02.s linear 4;
+}
+
+@-moz-keyframes resaltar{
+	0%{
+		transform: translateY(-10);
+	}
+
+	50%{
+		transform: translateY(+10);
+	}
+
+	100%{
+		transform: translateY(-10);
+	}
+}
+
+@-webkit-keyframes resaltar{
+	0%{
+		transform: translateY(-10);
+	}
+
+	50%{
+		transform: translateY(+10);
+	}
+
+	100%{
+		transform: translateY(-10);
+	}
+}
+
+@keyframes resaltar{
+	0%{
+		transform: translateY(-10);
+	}
+
+	50%{
+		transform: translateY(+10);
+	}
+
+	100%{
+		transform: translateY(-10);
+	}
+}
+
 .input-group-addon {
 	background: #D8E1E4;
 	border: 2px solid #D8E1E4;

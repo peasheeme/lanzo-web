@@ -1,7 +1,5 @@
-<?php session_start(); ?>
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,6 +33,7 @@
 	<link href="assets/css/animate.css" rel="stylesheet">
 	<!-- Custom styles CSS -->
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+	<script src="assets/js/formulario.js"></script>
 </head>
 <body>
 
