@@ -35,7 +35,7 @@
 										<div class="icon">
 											
 										</div><br>
-										<h4> <img src="assets/images/icons/s2.png" alt="Valuación de activos intangibles" width="70" style="padding-right: 20px;"> Asesoría Jurídica Propiedad Intelectual</h4>
+										<h4> <img src="assets/images/icons/s2.png" alt="Valuación de activos intangibles" width="70" style="padding-right: 20px;"> Asesoría Jurídica Propiedad <span class="text-intelectual">Intelectual</span></h4>
 										<div class="text-justify">
 												<p class="min"> Nuestros servicios incluyen búsqueda y registros de marca, trámites de patentes, modelos de utilidad y diseños industriales, protección de derechos de autor, protección de software y desarrollos informáticos, protección de datos o privacidad, litigio, derechos de imagen y nombres de dominio.</p>
 										</div>
@@ -170,26 +170,26 @@
 			<div class="row dispMovil">
 
 			<div class="col-xs-12 col-sm-6  col-lg-3 text-center">
-						<img src="assets/images/icons/1.png" width="80" >
+						<img src="assets/images/icons/beneficios-utilidades.png" width="80" >
 						<div class="vertical-service mt-20 ">
 							<h4>Utilidades</h4>
 						</div>
 				</div>
 
 				<div class="col-xs-12 col-sm-6  col-lg-3 text-center">
-						<img src="assets/images/icons/1.png" width="80" >
+						<img src="assets/images/icons/beneficios-financieros.png" width="80" >
 						<div class="vertical-service mt-20 ">
 							<h4>Financieros</h4>
 							</div>
 				</div>
 				<div class="col-xs-12 col-sm-6  col-lg-3 text-center">
-						<img src="assets/images/icons/2.png" width="80" >
+						<img src="assets/images/icons/beneficios-administrativos.png" width="80" >
 						<div class="vertical-service mt-20 ">
 							<h4>Administrativos</h4>
 						</div>
 				</div>
 				<div class="col-xs-12 col-sm-6  col-lg-3 text-center">
-						<img src="assets/images/icons/1.png" width="80" >
+						<img src="assets/images/icons/beneficios-fiscales.png" width="80" >
 						<div class="vertical-service mt-20 ">
 							<h4>Fiscales</h4>
 						</div>

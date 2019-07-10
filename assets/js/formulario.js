@@ -1,11 +1,11 @@
 var mensaje = ['Ni números ni caracteres especiales', 'Introduce un email válido', 'Introduce un mensaje menor de 500 caracteres'];
 var objetos = null;
 function crearAviso(msj, pos){
-    objetos = document.createElement("div");
+    objetos = document.createElement("DIV");
     var t = document.createTextNode(msj);
 
     objetos.appendChild(t);
-    objetos.className = 'error-msj';
+    objetos.className = "error-msj";
     objetos.style.top = pos+"px";
     document.body.appendChild(objetos);
 }
@@ -16,19 +16,19 @@ function destruirAviso(){
 }
 
 function validar(event){
-    var form = document.form[0];
+    var form = document.forms[0];
     var l = form.length-1;
-    var n = 210;
+    var n = 612;
     if(objetos != null){
         destruirAviso(objetos);
     }
-    for(var i = 0; i<=1; i++){
+    for(var i = 0; i<=l; i++){
         if(!form[i].validity.valid){
             crearAviso(mensaje[i], n);
             event.preventDefault();
             break;
         }
 
-        n+=50;
+        n+=95;
     }
 }

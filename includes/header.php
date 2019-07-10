@@ -42,7 +42,7 @@
 
 </div>
 		<div class="scroll-up">
-			<a href="#intro"><i class="fa fa-angle-up"></i></a>
+			<a href="#"><i class="fa fa-angle-up"></i></a>
 		</div>
 		<!-- Navigation start -->
 		<div class="row">

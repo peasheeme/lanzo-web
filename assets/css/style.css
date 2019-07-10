@@ -233,8 +233,10 @@ a,
 	height: auto;
 	padding: 5px;
 	background-color: red;
+	color: #222;
 	border-radius: 5px;
-	left: 1010px;
+	left: 502px;
+	font-size: 12px;
 	animation: resaltar 02.s linear 4;
 }
 
@@ -472,6 +474,9 @@ a,
 	border-right: 2px solid #FFF;
 }
 
+#skill .text-skills{
+	font-size: 1em;
+}
 /* ---------------------------------------------- /*
  * Progress bars
 /* ---------------------------------------------- */
@@ -1000,6 +1005,9 @@ h1.portada-title {
 .sliderHome2 {
 	padding-right:  50px;
 	}
+.text-intelectual{
+	padding-left: 75px;		
+}	
 /* ---------------------------------------------- /*
  *Proceso
 /* ---------------------------------------------- */
@@ -1069,13 +1077,14 @@ h1.portada-title {
 	border-radius: 50%;
 }
 
-#testimonials blockquote {
+#testimonials .text-testimonials {
 	border: 0;
 	padding: 10px 80px;
 	margin: 0;
+	font-size: 1em;
 }
 
-#testimonials blockquote p {
+#testimonials .text-testimonials p {
 	margin: 15px 0 5px;
 }
 
@@ -1403,7 +1412,7 @@ p.automatizacion {
 b, strong {
     font-weight: 700;
     color: #2e2a25;
-    font-size: 18px;
+    font-size: 1em;
 }
 
 /* ---------------------------------------------- /*
@@ -1543,6 +1552,12 @@ h3.green:hover {
 
 }
 
+@media screen and (max-width: 994px) and (min-width: 768px){
+	.error-msj{
+		left: 400px;
+	}
+}
+
 @media screen and (max-width: 767px) {
 
 	.scroll-up {
@@ -1552,6 +1567,9 @@ h3.green:hover {
 		width: 100%;
 		margin-top: 3px;
 		margin-bottom: 21px;
+	}
+	.error-msj{
+		left: 300px;
 	}
 }
 
@@ -1678,4 +1696,28 @@ h3.green:hover {
 	.acordeon .acordeon-contenido{
 		font-size: 12px;
 	}
+	.error-msj{
+		left: 180px;
+	}
+	b, strong {
+		font-size: 0.9em;
+	}
+	#testimonials .text-testimonials {
+		font-size: 0.9em;
+	}
+	.ventajasComp{
+		padding: 100px 0;
+		background: #D0CFD4;
+	}
+	#skill .text-skills{
+		font-size: 0.6em;
+	}
+	.title-intelectual{
+		padding-left: 75px;
+	}
+	
+	#testimonials .text-testimonials {
+		padding: 0;
+	}
+
 }

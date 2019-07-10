@@ -56,16 +56,18 @@
 							<div class="ajax-hidden">
 								<div class="form-group">
 									<label class="sr-only" for="c_name">Nombre</label>
-									<input type="text" pattern="[A-Za-z-áéíóú\s]+" id="c_name" onkeyup="this.className = 'campo';" class="form-control"  maxlength="100" name="c_name" placeholder="Nombre" required><span></span>
+									<input type="text" pattern="[A-Za-z-áéíóú\s]+" id="c_name" onkeyup="this.className = 'campo';" onblur=" destruirAviso(objetos);" class="form-control"  maxlength="100" name="c_name" placeholder="Nombre" required><span></span>
 								</div>
 								<div class="form-group">
 									<label class="sr-only" for="c_email">E-mail </label>
-									<input type="email" id="c_email" onkeyup="this.className = 'campo';" class="form-control" name="c_email" placeholder="E-mail" required><span></span>
+									<input type="email" id="c_email" onkeyup="this.className = 'campo';" onblur=" destruirAviso(objetos);" class="form-control" name="c_email" placeholder="E-mail" required><span></span>
 								</div>
 								<div class="form-group">
-									<textarea class="form-control" id="c_message" onkeyup="this.className = 'campo';" name="c_message" rows="7" placeholder="Mensaje" required></textarea><span></span>
+									<textarea class="form-control" id="c_message" onkeyup="this.className = 'campo';" onblur=" destruirAviso(objetos);" name="c_message" rows="7" placeholder="Mensaje" required></textarea><span></span>
 								</div>
-								<input type="submit" value="Enviar">
+								<button type="submit" class="btn btn-custom-1-inverse">
+									<i class="fa fa-bullhorn icon-before"></i> Enviar
+								</button>
 							</div>
 
 							<div class="ajax-response"></div><!-- Displays status when submitting form -->
