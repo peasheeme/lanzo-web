@@ -148,7 +148,7 @@ Intangibles</h4>
 	<br>			
 <div class="vertical-service  wow bounceInUp" data-wow-delay=".2s">
 
-					<h4><img src="assets/images/icons/s2.png" width="70" style="padding-right: 20px;"> Asesoría Jurídica de Propiedad <span class="title-intelectual">Intelectual</span></h4>
+					<h4><img src="assets/images/icons/s2.png" width="70" style="padding-right: 20px;"> Asesoría Jurídica de Propiedad <span class="text-intelectual">Intelectual</span></h4>
 
 					<p class="text-left">
 					Te asesoramos en servicios que incluyen búsqueda y registros de
@@ -180,7 +180,7 @@ Intangibles</h4>
 
 	<div class="container">
 		<div class="row text-center">
-			<div class="col-md-6 col-sm-3 text-left knob wow  ">
+			<div class="col-sm-12 col-md-6 text-left knob wow  ">
 				<h2 style="color:#bd2e30; padding-bottom: 50px;">Nuestras Ventajas Competitivas</h2>
 
 				<div class="row">

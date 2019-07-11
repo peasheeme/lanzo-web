@@ -461,6 +461,9 @@ a,
 /* ---------------------------------------------- /*
  * Skill-bars
 /* ---------------------------------------------- */
+/*.skill-image{
+	width: 40%;
+}*/
 
 .skill-bar {
 	background: #C4C4C4;
@@ -769,7 +772,11 @@ a,
 .callout-dark, .callout-light {
 	background: #F2F2F2;
 	text-align: center;
-	padding: 60px 0;
+	padding: 30px 0;
+}
+
+.beneficios-padding{
+	padding-bottom: 1.8rem;
 }
 
 .callout-dark {
@@ -1177,12 +1184,13 @@ h1.portada-title {
 /*#footer img {
 	margin-right: 16px;
 }*/
-a.footer-link {
+.footer-link {
 	color: #999999;
 }
-a.footer-link:hover {
+.footer-link:hover {
 	color: #bd2e30;
 }
+
 h4.media-heading {
 	color: #999999;
 }
@@ -1204,7 +1212,7 @@ h3.footer {
 	display: grid;
 }
 .tabs-links a{
-	
+	margin-bottom: 12px;
 	text-decoration: none;
 	background: white;
 	text-align: left;
@@ -1219,7 +1227,7 @@ h3.footer {
 	width: 20%;
 }
 .tabs-links a span{
-	font-size: smaller;
+	font-size: 14px;
 }
 .tabs-contents-item{
 	display: none;
@@ -1227,7 +1235,7 @@ h3.footer {
 	padding: 1.5em;
 }
 .tabs-contents-item h6{
-	padding-left: 44px;  
+	/*padding-left: 44px;  */
 	line-height: 0.1;  
 	padding-bottom: 26px;
 }
@@ -1248,16 +1256,16 @@ h3.footer {
 	background: white;
 	color: black;
 	padding: 0 1em;
-	line-height: 2.5;
+	line-height: 1.8;
 	border-bottom: 1px solid #D8E1E4;
 	font-weight: bold;
-	font-size: 0.8em;
+	font-size: 14px;
 	cursor: pointer;
 }
 
 .acordeon .acordeon-contenido{
 	padding: 0 2em;
-	font-size: 15px;
+	font-size: 14px;
 	display:none;
 }
 
@@ -1525,6 +1533,12 @@ h3.green:hover {
 	}
 }
 
+@media screen and (min-width:1210px){
+	.text-intelectual{
+		padding-left: 0;		
+	}	
+}
+
 @media (max-width:1200px) {
 	h1 {
 		font-size: 38px;
@@ -1539,7 +1553,6 @@ h3.green:hover {
 		margin-top:300px !important;
 		margin-left: 85px;
 	}
-
 }
 
 @media (max-width: 992px) {
@@ -1591,6 +1604,16 @@ h3.green:hover {
 	.btn-centeres {
 		border: 2px solid white;
 		justify-content: center;
+	}
+	.text-intelectual{
+		padding-left: 0;		
+	}
+	
+	.service h4 {
+		text-transform: uppercase;
+		color: black;
+		font-weight: 600;
+		font-size: 14px;
 	}
 }
 
@@ -1669,8 +1692,42 @@ h3.green:hover {
 	.tabs-links a span{
 		font-size: 1.2em;
 	}
+	.padding-footer-text{
+		padding-left: 20px;
+	}
 }
 
+@media screen and (min-width: 544px) and (max-width: 767px){
+	.acordeon .acordeon-titulo{
+		font-size: 12px;
+	}
+	.active-faq{
+		padding: 20px 20px;
+	}
+	.tabs-links a span{
+		font-size: 11px;
+	}
+	.text-intelectual{
+		padding-left: 75px;		
+	}	
+}
+
+@media screen and (min-width: 768px){
+	.tabs-contents-item h6{
+		padding-left: 44px;  
+	}
+	.padding-footer-text{
+		padding-left: 36px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.ventajasComp{
+		padding: 100px 0;
+		background: #D0CFD4;
+	}
+	
+}
 
 
 @media screen and (max-width:576px){
@@ -1684,8 +1741,8 @@ h3.green:hover {
 		padding-left: 35px;
 	}
 
-	#footer .footer-link img{
-		width: 18%;
+	#footer img{
+		width: 12%;
 	}
 
 	#footer .footer-link{
@@ -1741,4 +1798,20 @@ h3.green:hover {
 		padding: 0;
 	}
 
+}
+
+@media screen and (max-width:480px){
+	.active-faq{
+		padding: 20px 20px;
+	}
+	.acordeon .acordeon-contenido{
+		font-size: 10px;
+	}
+}
+
+
+@media screen and (max-width:426px){
+	.text-intelectual{
+		padding-left: 75px;		
+	}	
 }

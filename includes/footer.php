@@ -27,10 +27,12 @@
 				<a class="footer-link" href="#">
 					<img src="assets/images/icons/ubicacion.png" alt="mail">
 					Lázaro Garza Ayala
-					<span class="footer-text">105 Pte L-18 C.P. 66260</span> <br>
-					<span class="footer-text">San Pedro Garza García </span> <br>
-					<span class="footer-text">Nuevo León México.</span> <br>
+					
 				</a>
+				<br>
+				<span class="footer-link padding-footer-text">105 Pte L-18 C.P. 66260</span> <br>
+				<span class="footer-link padding-footer-text">San Pedro Garza García </span> <br>
+				<span class="footer-link padding-footer-text">Nuevo León México.</span> <br>
 
 
 
@@ -47,6 +49,7 @@
 					<img src="assets/images/icons/mail.png" alt="mail">
 					<span>contacto@lanzo.com.mx</span>
 				</a>
+				
 
 				<br>
 				<br>

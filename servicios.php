@@ -29,7 +29,7 @@
 									<div class="icon">
 										
 									</div><br>
-									<h4> <img src="assets/images/icons/s1.jpg" alt="Valuación de activos intangibles" width="70" style="padding-right: 20px;"> Valuación de activos intangibles</h4>
+									<h4> <img src="assets/images/icons/s1.jpg" alt="Valuación de activos intangibles" width="70" style="padding-right: 20px;"> Valuación de activos <span class="text-intelectual">intangibles</span></h4>
 									<div class="text-justify">
 											<p class="min"> En nuestra firma, ayudamos a nuestros clientes a establecer su precio de venta o transferencia, estimar la razonabilidad del precio de compra, venta, tasas de regalías o precio de licencia del intangible, en operaciones de disolución o joint venture, valuación de registros contables, planeación estratégicas o financieras.</p>
 									</div>
@@ -155,12 +155,12 @@
 						<div class="col-sm-12 wow bounceInDown text-center">
 							<h2 class="black">Beneficios</h2> <br>
 							<div class="row">
-								<div class="col-xs-12 col-md-2"></div>
+								<div class="col-xs-12 col-sm-2"></div>
 								<div class="col-xs-12  col-sm-8 text-center">
 										<p class="black"> Realizamos estudios e investigaciónes sobre conceptos contemplados
 											 por las normas de información financieras que son sujetos de Valuación y producen beneficios como:</p>
 								</div>
-								<div class="col-xs-12 col-md-2"></div>
+								<div class="col-xs-12 col-sm-2"></div>
 								
 							</div>
 
@@ -174,26 +174,26 @@
 		<div class="container">
 			<div class="row dispMovil">
 
-			<div class="col-xs-12 col-sm-6  col-lg-3 text-center">
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center beneficios-padding">
 						<img src="assets/images/icons/beneficios-utilidades.png" width="80" >
 						<div class="vertical-service mt-20 ">
 							<h4>Utilidades</h4>
 						</div>
 				</div>
 
-				<div class="col-xs-12 col-sm-6  col-lg-3 text-center">
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center beneficios-padding">
 						<img src="assets/images/icons/beneficios-financieros.png" width="80" >
 						<div class="vertical-service mt-20 ">
 							<h4>Financieros</h4>
 							</div>
 				</div>
-				<div class="col-xs-12 col-sm-6  col-lg-3 text-center">
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center beneficios-padding">
 						<img src="assets/images/icons/beneficios-administrativos.png" width="80" >
 						<div class="vertical-service mt-20 ">
 							<h4>Administrativos</h4>
 						</div>
 				</div>
-				<div class="col-xs-12 col-sm-6  col-lg-3 text-center">
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
 						<img src="assets/images/icons/beneficios-fiscales.png" width="80" >
 						<div class="vertical-service mt-20 ">
 							<h4>Fiscales</h4>

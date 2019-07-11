@@ -50,6 +50,10 @@
 									echo "<h5 style='color:red;'>Mensaje no válido</h5>";
 								}
 
+								elseif ($error == "terms") {
+									echo "<h5 style='color:red;'>Debes aceptar los términos y condiciones</h5>";
+								}
+
 							}
 							
 						?>
@@ -60,11 +64,19 @@
 								</div>
 								<div class="form-group">
 									<label class="sr-only" for="c_email">E-mail </label>
-									<input type="email" id="c_email" onkeyup="this.className = 'campo';" onblur=" destruirAviso(objetos);" class="form-control" name="c_email" placeholder="E-mail" required><span></span>
+									<input type="email" pattern="^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$" id="c_email" onkeyup="this.className = 'campo';" onblur=" destruirAviso(objetos);" class="form-control" name="c_email" placeholder="E-mail" required><span></span>
 								</div>
 								<div class="form-group">
-									<textarea class="form-control" id="c_message" onkeyup="this.className = 'campo';" onblur=" destruirAviso(objetos);" name="c_message" rows="7" placeholder="Mensaje" required></textarea><span></span>
+									<textarea class="form-control" id="c_message" onkeyup="this.className = 'campo';" onblur=" destruirAviso(objetos);" name="c_message" rows="7" placeholder="Mensaje" maxlength="500" minlength="2" required></textarea><span></span>
 								</div>
+
+								<div class="form-check">
+									<input type="checkbox" name="terms" id="" onkeyup="this.className = 'campo';" onblur=" destruirAviso(objetos);" required>
+									<label for="">
+										<a href="privacidad.php">Acepto términos y condiciones</a>
+									</label>
+								</div>
+
 								<button type="submit" class="btn btn-custom-1-inverse">
 									<i class="fa fa-bullhorn icon-before"></i> Enviar
 								</button>
