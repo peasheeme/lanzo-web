@@ -6,9 +6,11 @@
 					<div class="col-md-10">
 						<div class=" wow bounceInDown text-left">
 							<h2 class="mt-50">Nosotros</h2>
-							<p class="blanco mt-20">
-									
-									Brindamos el servicio legal de  protección de todos los activos de Propiedad Intelectual de nuestros clientes.</p>
+						<div class="row">
+						<div class="col-xs-12 col-md-8">	<p class="blanco mt-20">
+							Somos La Firma líder en México enfocada en proveer servicios legales en materia de Propiedad Intelectual y Valuación de Activos Intangibles.
+								</p></div>
+						</div>
 							<a href="contacto.php"><button class="botones">Contáctanos</button></a>
 						</div>
 						<div class="col-md-2  "></div>

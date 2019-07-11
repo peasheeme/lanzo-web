@@ -3,8 +3,8 @@
 	<div class="container">
 		<div class="row ">
 			<div class="col-xs-12 col-md-4 col-lg-6">
-				<img src="assets/images/logo.png" width="150">
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nulla iusto labore eos, doloribus aliquam ipsum accusamus alias vitae magni eius? Sapiente esse rem earum reprehenderit illum quae repudiandae ea.
+				<img src="assets/images/logo.png" width="150"> 
+				<p class="mt-30"> <br>Somos una firma líder en México Enfocada en proveer servicios legales en materia de Propiedad Intelectual y Valuación de Activos Intangibles.
 				</p>
 				<p class="copy"><br>
 					© 2019 LANZO CONSULTORES, S.C. Todos los derechos reservados. <br><br> <a href="privacidad.php"> Política de privacidad </a>

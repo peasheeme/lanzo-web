@@ -6,7 +6,7 @@
 			<div class="col-xs-12 col-md-6 contenedor">
 				<div class="hello2 wow bounceInDown text-left " style="margin-top:100px;">
 					<h1 class="portada-title">¡En Lanzo Protegemos tus Ideas!</h1> <br>
-					<h2 class="black"> Servicios Legales de Propiedad Intelectual y <br> Valuación de Activos Intangibles.</h2> <br>
+					<h2 class="black"> Servicios Legales de Propiedad Intelectual y  Valoracion de Bienes inmateriales.</h2> <br>
 					<h3><span class="rotate"> <strong> Derechos de Autor | Nombres de dominio | Invenciones| Litigio y Cumplimiento | Nuevas Tecnologías | Signos Distintivos | Valuacion de Activos Intangibles</strong></span></h3>
 					<br><br><a href="contacto.php"><button class="botones" style="background:#bd2e30; color: white;">Contáctanos</button></a>
 				</div>
@@ -45,8 +45,7 @@
 				</div>
 					</div>
 		</section>-->
-<section class="section" style="background-image: url(assets/images/3.jpg); background-repeat:no-repeat;  background-position-x: 
-		left; background-size:cover ;">
+<section class=" carousel-1" style="">
 	<div class="container">
 
 
@@ -61,30 +60,38 @@
 
 							<div class="owl-item lanzo">
 								<div class="row">
-
-
 									<div class="col-xs-12 col-md-12 sliderHome2">
-										<h2 class="verde">Protege tu marca</h2>
+										<h2 class="verde">Registra tu marca</h2>
 										<h3 class="blanco">¿Porqué es importante registrar tu marca?</h3>
-
-										<p class="blanco"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aut nobis cumque, laudantium excepturi sed? Tempore dignissimos neque deserunt fugiat sequi magnam commodi voluptatem debitis recusandae. Qui mollitia aperiam rem. </p>
-
+										<p class="blanco">Si no registras tu marca, cualquier persona puede registrarla obteniendo los derechos sobre la misma, independientemente de quien creó o diseñó la marca.  </p>
 									</div>
-
 								</div>
-
 							</div>
 
 							<div class="owl-item lanzo">
 								<div class="row">
 
 
+									<div class="col-xs-12 col-md-12  sliderHome2">
+										<h2 class="verde">Patenta tu creación</h2> 
+										<h3 class="blanco">¿Para que sirve una patente?</h3>
+										<p class="blanco ">Te brinda un permiso exclusivo que otorga el estado 
+											para el uso industrial y comercial de la invención patentada. <br>
+											Patentando puedes proteger invenciones relativas a máquinas, 
+											aparatos, dispositivos, procedimientos, productos, etc.</p>
+
+									</div>
+
+								</div>
+							</div>
+							<div class="owl-item lanzo">
+								<div class="row">
+
+
 									<div class="col-xs-12 col-md-12 sliderHome2">
-										<h2 class="verde">Patentes</h2>
-										<h3 class="blanco">¿Qué puedo proteger como patente?</h3> <br>
-										<p class="blanco">Se pueden patentar las invenciones que sean nuevas, resultado de una actividad inventiva y susceptibles de aplicación industrial.
-										</p>
-										<p class="blanco">Como patente se pueden proteger invenciones relativas a máquinas, aparatos, dispositivos, procedimientos, productos, etc.</p>
+										<h2 class="verde">Protege tus derechos</h2> 
+										<h3 class="blanco">¿Quien es autor?</h3>
+										<p class="blanco">Cualquier persona física que crea obras literarias, artísticas y científicas, entre ellas: libros cursos de formación, obras de arquitectura, composiciones musicales, obras audiovisuales, obra multimedia, obras artísticas, etc.</p>
 
 									</div>
 
@@ -92,8 +99,11 @@
 							</div>
 
 						</div>
-						<div class="row">
-							<a href="servicios.php"><button class="btn-centeres">Ver más</button></a>
+						<div class="row ">
+							<div class="col-xs-12 col-md-12 text-xs-center text-sm-center text-md-left">
+							<a href="faq.php"><button class="btn-centeres">Ver más</button></a>
+							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -114,38 +124,39 @@
 <section id="about" class="section">
 
 	<div class="container">
-
+		<div class="row">
+			<div class="col-xs-12 col-md-8"><h2 class="rojo ">Ofrecemos servicios personalizados 
+						dirigidos 	al campo de derecho</h2> </div> 
+			<div class="col-xs-12 col-md-4"></div>
+		</div>
+				
 		<div class="row">
 			<div class="col-md-8 col-lg-6 wow bounceInLeft">
-				<h2 class="rojo">Ofrecemos servicios personalizados <br> de acuerdo a tus necesidades</h2> <br>
-				<h3 class="black">
+			<br>
+				 <h4 class="black text-left">
 					Somos una firma líder en México Enfocada en proveer servicios legales en materia de Propiedad Intelectual y Valuación de Activos Intangibles.
-				</h3>
-				<p> Ofrecemos servicios dirigidos en este campo del Derecho, tales como:</p>
-				<p></p>
+				</h4> <br>
+			<div class="vertical-service wow bounceInUp">
 
-				<div class="row">
-					<div class="col-sm-6">
-						<ul class="list-unstyled iconList">
-							<li>Signos Distintivos</li>
-							<li>Invensiones</li>
-							<li>Derechos de Autor</li>
-							<li>Nuevas Tecnologías</li>
+<h4> <img src="assets/images/icons/s1.jpg" width="70" style="padding-right: 20px;"> Valuación de Activos 
+Intangibles</h4>
 
-						</ul>
-					</div>
+<p class="text-left"><p class="text-left">Te ayudamos a establecer el precio de venta o transferencia 
+	, estimar la razonabilidad del precio de compra o venta,
+	  tasas de regalías o precio de licencia del intangible.
+</div>
+	<br>			
+<div class="vertical-service  wow bounceInUp" data-wow-delay=".2s">
 
-					<div class="col-sm-6 about-movil">
-						<ul class="list-unstyled iconList">
-							<li class="">Litigio y Cumplimiento</li>
-							<li>Nombres de Dominio</li>
-							<li>Valuacion de ativos Intangibles</li>
+					<h4><img src="assets/images/icons/s2.png" width="70" style="padding-right: 20px;"> Asesoría Jurídica de Propiedad <span class="title-intelectual">Intelectual</span></h4>
 
-						</ul>
-					</div>
+					<p class="text-left">
+					Te asesoramos en servicios que incluyen búsqueda y registros de
+						 marca, patentes, diseños industriales, protección  software y desarrollos informáticos, 
+						  protección de datos o privacidad, derechos de imagen, nombres de dominio, etc.</p>
 				</div>
 
-			</div><!-- .com-md-6 -->
+			</div>
 
 
 			<div class=" col-md-4 col-lg-6 wow bounceInRight">
@@ -155,22 +166,7 @@
 
 			<div class="clearfix"></div>
 
-			<div class="col-md-6 ">
-				<div class="vertical-service wow bounceInUp">
-
-					<h4> <img src="assets/images/icons/1.png" width="70" style="padding-right: 20px;"> Valuación de Activos Intangibles</h4>
-
-					<p class="text-left">En nuestra firma, ayudamos a nuestros clientes a establecer su precio de venta o transferencia, estimar la razonabilidad del precio de compra, venta, tasas de regalías o precio de licencia del intangible, en operaciones de disolución o joint venture, valuación de registros contables, planeación estratégicas o financieras.
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="vertical-service  wow bounceInUp" data-wow-delay=".2s">
-
-					<h4><img src="assets/images/icons/2.png" width="70" style="padding-right: 20px;"> Asesoría Jurídica de Propiedad <span class="title-intelectual">Intelectual</span></h4>
-
-					<p class="text-left">Nuestros servicios incluyen búsqueda y registros de marca, trámites de patentes, modelos de utilidad y diseños industriales, protección de derechos de autor, protección de software y desarrollos informáticos, protección de datos o privacidad, litigio, derechos de imagen y nombres de dominio.</p>
-				</div>
-			</div>
+			
 		</div><!-- .row -->
 	</div><!-- .container -->
 </section>
@@ -190,7 +186,7 @@
 				<div class="row">
 					<div class="col-xs-12 col-md-12">
 						<div class="col-xs-4 col-md-2">
-							<img src="assets/images/icons/3.png" width="70" class="text-center">
+							<img src="assets/images/icons/servicios-profesionales.png" width="70" class="text-center">
 						</div>
 						<div class="col-xs-8 col-md-8">
 							<h3> <span class="text-skills" style="font-weight:700;">Servicio profesional especializado, plasmando conocimiento y experiencia en cada asunto atendido.</span></h3>
@@ -201,7 +197,7 @@
 				<div class="row mt-50">
 					<div class="col-xs-12 col-md-12">
 						<div class="col-xs-4 col-md-2">
-							<img src="assets/images/icons/5.png" width="70" class="text-center">
+							<img src="assets/images/icons/asistencia-online.png" width="70" class="text-center">
 						</div>
 						<div class="col-xs-8 col-md-8">
 							<h3> <span class="text-skills" style=" font-weight:700;">Atención Remota vía internet con disponibilidad inmediata.</span></h3>
@@ -211,14 +207,13 @@
 				<div class="row mt-50">
 					<div class="col-xs-12 col-md-12">
 						<div class="col-xs-4 col-md-2">
-							<img src="assets/images/icons/4.png" width="70" class="text-center">
+							<img src="assets/images/icons/beneficios-utilidades.png" width="70" class="text-center">
 						</div>
 						<div class="col-xs-8 col-md-8">
 							<h3> <span class="text-skills" style="font-weight:700;">Precio justo en relación costo/beneficio por un servicio diferenciador.</span></h3>
 						</div>
 					</div>
 				</div>
-
 
 				<div class="row mt-30">
 					<div class="col-xs-12 col-md-12">
@@ -229,15 +224,9 @@
 							<a href="contacto.php" style="margin-left:-18px;"><button class="btn-centeres">Contáctanos</button></a> </div>
 					</div>
 				</div>
-
-
-
-
 			</div>
 
-			<div class="col-md-6 col-sm-6 knob wow ">
-
-			</div>
+		
 
 
 
