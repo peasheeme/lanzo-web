@@ -86,7 +86,7 @@
 						</form>
 					</div><!-- .col -->
 
-
+							
 					<div class="col-xs-12 col-sm-6 col-md-6 wow bounceInUp margen-movil text-position">
 						<h4><img class=" pl-20" src="assets/images/icons/phone.png" alt="phone" > Teléfonos</h4>
 						<a class="" href="tel:8113565400"> <span class="pl-55">81-13565400 </span></a> <br> 
