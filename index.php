@@ -1,14 +1,14 @@
 ﻿<?php require_once('includes/header.php') ?>
 
-<section class="bg-intro ">
+<section class="bg-intro">
 	<div class="container-fluid">
 		<div class="row ">
-			<div class="col-xs-12 col-md-6 contenedor">
+			<div class="col-xs-12 col-md-6 contenedor bg-index-sm">
 				<div class="hello2 wow bounceInDown text-left " style="margin-top:100px;">
-					<h1 class="portada-title">¡En Lanzo Protegemos tus Ideas!</h1> <br>
-					<h2 class="black"> Servicios Legales de Propiedad Intelectual y  Valoracion de Bienes inmateriales.</h2> <br>
-					<h3><span class="rotate"> <strong> Derechos de Autor | Nombres de dominio | Invenciones| Litigio y Cumplimiento | Nuevas Tecnologías | Signos Distintivos | Valuacion de Activos Intangibles</strong></span></h3>
-					<br><br><a href="contacto.php"><button class="botones" style="background:#bd2e30; color: white;">Contáctanos</button></a>
+					<h1 class="portada-title relative-title">¡En Lanzo Protegemos tus Ideas!</h1> <br>
+					<h2 class=" relative-title"> Servicios Legales de Propiedad Intelectual y  Valoracion de Bienes inmateriales.</h2> <br>
+					<h3 class="relative-title"><span class="rotate"> <strong> Derechos de Autor | Nombres de dominio | Invenciones| Litigio y Cumplimiento | Nuevas Tecnologías | Signos Distintivos | Valuacion de Activos Intangibles</strong></span></h3>
+					<br><br><a href="contacto.php" class="relative-title"><button class="botones" style="background:#bd2e30; color: white;">Contáctanos</button></a>
 				</div>
 			</div>
 			<div class=" col-xs-12 col-md-6 bg-index">
