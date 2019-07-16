@@ -1,5 +1,6 @@
 var mensaje = ['Ni números ni caracteres especiales', 'Introduce un email válido', 'Introduce un mensaje menor de 500 caracteres con un mínimo de 2 caracteres', 'Debes aceptar los terminos y condiciones'];
 var objetos = null;
+
 function crearAviso(msj, pos){
     objetos = document.createElement("DIV");
     var t = document.createTextNode(msj);

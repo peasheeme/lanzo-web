@@ -93,27 +93,7 @@
 		 * Background image
 		/* ---------------------------------------------- */
 
-		$('#intro').backstretch([
-			'assets/images/bg1.jpg',
-			'assets/images/bg2.jpg',
-			'assets/images/bg3.jpg'
-		], {duration: 3000, fade: 750});
-
-
-		$('#automatizacion').backstretch([
-			'assets/images/bg5.png',
-			], );
-
-		$('#seguridad').backstretch([
-			'assets/images/bg5.png',
-			], );
-
-		$('#ambientacion').backstretch([
-			'assets/images/bg5.png',
-			], );
-		$('#contacto').backstretch([
-			'assets/images/bg5.png',
-			], );
+		
 		/* ---------------------------------------------- /*
 		 * Navbar
 		/* ---------------------------------------------- */
@@ -203,7 +183,12 @@
 		});
 
 		$("#owl-clients").owlCarousel({
-			items : 10,
+			items : 5,
+			itemsDesktop : [1199,8],
+			itemsDesktopSmall : [980,6],
+			itemsTablet: [768,5],
+			itemsTabletSmall: false,
+			itemsMobile : [479,3],
 			pagination: false,
 			slideSpeed : 300,
 			paginationSpeed : 400,
