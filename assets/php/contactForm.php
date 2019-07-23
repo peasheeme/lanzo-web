@@ -1,13 +1,5 @@
 <?php
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-use PHPMailer\PHPMailer\SMTP;
-
-require_once 'PHPMailer/Exception.php';
-require_once 'PHPMailer/PHPMailer.php';
-require_once 'PHPMailer/SMTP.php';
-
 
 if (isset($_POST)) {
 	function limpiarCampos($campo)
@@ -62,61 +54,55 @@ if (isset($_POST)) {
 	if ($error != "ok") {
 		header("Location:../../contacto.php?error=" . $error);
 	} elseif ($error == "ok") {
+
+		//a quién será enviado
+		$destino = "juan_27angel@hotmail.com";
+
+		//asunto
+		$asunto = "Mensaje enviado desde la página web";
+
+		//cabeceras para el envío del mail en formato html
+		$headers = "MIME-Version: 1.0" . "\r\n";
+		$headers .= "Content-type: text/html; charset=UTF-8\r\n";
+
+		//contenido del mensaje
+		$contenido = '
+			<!DOCTYPE html>
+			<html lang="es">
+			<head></head>
+			<body>
+				<h2>' . $name . ' ha enviado el siguiente mensaje a través de tu sitio web:</h2>
+			
+				<p>' . $message . '</p>
 		
-		$phpmailer = new PHPMailer(true);
-		$phpmailer->CharSet = 'UTF-8';
-		try {
-			//configuración del servidor
-			$phpmailer->SMTPDebug = false;
-			$phpmailer->isSMTP();
-			$phpmailer->Host = "smtp.gmail.com; smtp.live.com";
-			$phpmailer->SMTPAuth = true;
-			$phpmailer->Username = "lanzoweb@gmail.com";
-			$phpmailer->Password = "lanzoweb1234";
-			$phpmailer->SMTPSecure = 'tls';
-			$phpmailer->Port = 587;
+				<p>Contacta a  ' . $name . ' al correo:  <span style="color:blue;"> ' . $email . '</span> </p>
+				
+				<p>Ir a mi sitio web <span style="color:blue">http://www.lanzo.com.mx/</span></p>
+			</body>
+			</html>
+		';
 
-			//recipients
-			$phpmailer->setFrom($email, $name);
-			$phpmailer->addReplyTo('juan_27angel@hotmail.com', 'Juan Angel Hernández Antopia');
-			$phpmailer->addAddress('juan_27angel@hotmail.com', 'Juan Angel Hernández Antopia');
+		//envío de mail
+		$envio = mail($destino, $asunto, $contenido, $headers);
 
-			//Content
-			$phpmailer->isHTML(true);
-			$phpmailer->Subject = 'Mensaje desde la página web';
-			$phpmailer->addEmbeddedImage('../images/logo.png', 'logo', 'logo.png');
-			$phpmailer->Body = '
-					<p>
-						<h1>Mensaje de la página web</h1>
-						
-						<p style="font-size:15px;">' . $message . '</p>
-					</p>
-					
-					<p style="font-size:15px;">
-						Puedes ponerte en contacto con <strong>' . $name . '</strong> al correo: <a href="' . $email.'"></a>
-					</p>
+		if ($envio) {
+			header("Location:../../contacto.php?enviado=Enviado correctamente");
 
-					<p>
-						<img src="cid:logo" alt="logo" width="85">
-					</p>
-			';
-
-			//permisos para usar ssl
-			$phpmailer->SMTPOptions = array('ssl' => array(
-				'verify_peer' => false,
-				'verify_peer_name' => false,
-				'allow_self_signed' => true
-			));
-
-			$send = $phpmailer->send();
-
-			if($send){
-				header("Location:../../contacto.php?enviado=correctamente");
-			}else{
-				header("Location:../../contacto.php?fallo");
-			}
-		} catch (Exception $e) {
-			header("Location:../../contacto.php?error=" . $phpmailer->ErrorInfo);
+			//enviando autorespuesta
+			$pfw_header = "From: tucorreo@mail.comn"
+				. "Reply-To: tucorreo@mail.comn";
+			$pfw_subject = "Mensaje recibido";
+			$pfw_email_to = "$email";
+			$pfw_message = "Muchas Gracias $name, por su mensaje: $message"
+				. "Su mensaje ha sido recibido satisfactoriamente. n"
+				. "Nos pondremos en contacto contigo lo antes posible en su e-mail: $email n"
+				. " n"
+				. " n"
+				. "--------------------------------------------------------------------------n"
+				. "Favor de NO responder este E-mail ya que es generado Automaticamente.n";
+			@mail($pfw_email_to, $pfw_subject, $pfw_message, $pfw_header);
+		} else {
+			header("Location:../contacto.php?error=Inténtelo de nuevo en unos momentos");
 		}
 	}
 }//termina datos post
